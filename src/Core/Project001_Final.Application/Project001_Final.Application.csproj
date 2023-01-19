@@ -1,0 +1,206 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Dtos\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Interface\" />
+    <None Remove="Interface\Repositories\" />
+    <None Remove="Parameters\" />
+    <None Remove="Mapping\" />
+    <None Remove="MediatR" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Features\" />
+    <None Remove="Features\Commands\" />
+    <None Remove="Features\Queries\" />
+    <None Remove="Features\Queries\GetStudents\" />
+    <None Remove="AutoMapper" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Features\Commands\CreateStudentCommand\" />
+    <None Remove="Wrapper\" />
+    <None Remove="Features\Queries\GetStudentById\" />
+    <None Remove="Features\Queries\User\" />
+    <None Remove="Features\Queries\User\GetUsers\" />
+    <None Remove="Features\Queries\User\GetUserById\" />
+    <None Remove="Features\Commands\Status\" />
+    <None Remove="Features\Commands\Status\CreateStatusCommand\" />
+    <None Remove="Features\Queries\Status\" />
+    <None Remove="Features\Queries\Status\GetAllStatusQuery\" />
+    <None Remove="Features\Commands\Role\" />
+    <None Remove="Features\Commands\Role\CreateRoleCommand\" />
+    <None Remove="Features\Queries\Role\" />
+    <None Remove="Features\Queries\Role\GetAllRoles\" />
+    <None Remove="Features\Commands\User\" />
+    <None Remove="Features\Commands\User\CreateUserCommand\" />
+    <None Remove="Features\Commands\UserRole\" />
+    <None Remove="Features\Queries\UserRole\" />
+    <None Remove="Features\Queries\UserRole\GetAllUserRole\" />
+    <None Remove="Features\Commands\Form\" />
+    <None Remove="Features\Commands\Form\CreateForm\" />
+    <None Remove="Features\Commands\NavigationItem\" />
+    <None Remove="Features\Commands\NavigationItem\CreateNavigationItem\" />
+    <None Remove="Features\Commands\NavigationItemRole\" />
+    <None Remove="Features\Commands\NavigationItemRole\CreateNavigationItemRole\" />
+    <None Remove="Features\Queries\Form\" />
+    <None Remove="Features\Queries\Form\GetAllForm\" />
+    <None Remove="Features\Queries\NavigationItem\" />
+    <None Remove="Features\Queries\NavigationItem\GetAllNavigationItem\" />
+    <None Remove="Features\Queries\NavigationItemRole\" />
+    <None Remove="Features\Queries\NavigationItemRole\GetAllUserNavigationItemRole\" />
+    <None Remove="Features\Queries\Language\" />
+    <None Remove="Features\Queries\Language\GetAllLanguage\" />
+    <None Remove="Features\Commands\Language\" />
+    <None Remove="Features\Commands\Language\CreateLanguage\" />
+    <None Remove="Features\Commands\Language\UpdateLanguage\" />
+    <None Remove="Features\Commands\Form\UpdateFormCommand\" />
+    <None Remove="Features\Commands\Role\UpdateRoleCommand\" />
+    <None Remove="Features\Commands\NavigationItem\UpdateNavigationItem\" />
+    <None Remove="Features\Commands\NavigationItemRole\UpdateNavigationItemRoleCommand\" />
+    <None Remove="Features\Commands\Status\UpdateStatusCommand\" />
+    <None Remove="Features\Commands\User\UpdateUserCommand\" />
+    <None Remove="Features\Commands\UserRole\CreateUserCommand\" />
+    <None Remove="Features\Commands\UserRole\UpdateUserRoleCommand\" />
+    <None Remove="Features\Queries\Base\" />
+    <None Remove="Features\Queries\Form\GetFormById\" />
+    <None Remove="Features\Queries\Language\GetLanguageByIdQuery\" />
+    <None Remove="Features\Queries\NavigationItem\GetNavigationItemById\" />
+    <None Remove="Features\Queries\NavigationItemRole\GetNavigationItemRoleById\" />
+    <None Remove="Features\Queries\Role\GetRoleById\" />
+    <None Remove="Features\Queries\Status\GetStatusById\" />
+    <None Remove="Features\Queries\UserRole\GetUserRoleById\" />
+    <None Remove="Features\Queries\User\Login\" />
+    <None Remove="Helpers\" />
+    <None Remove="Interface\JWT\" />
+    <None Remove="Microsoft.AspNetCore.Authorization" />
+    <None Remove="System.IdentityModel.Tokens.Jwt" />
+    <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <None Remove="Features\Commands\Post\" />
+    <None Remove="Features\Queries\Post\" />
+    <None Remove="Features\Commands\PostLike\" />
+    <None Remove="Features\Commands\PostLike\CreatePostLike\" />
+    <None Remove="Features\Queries\Post\GetPosts\" />
+    <None Remove="Features\Queries\PostLike\" />
+    <None Remove="Features\Queries\PostLike\GetCountLikesByPostIdQuery\" />
+    <None Remove="Features\Queries\Post\GetPostById\" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Features\Queries\PostLike\GetPostLikeById\" />
+    <None Remove="Features\Queries\PostComment\" />
+    <None Remove="Features\Commands\PostComment\" />
+    <None Remove="Features\Commands\PostComment\CreatePostCommentCommand\" />
+    <None Remove="Features\Commands\PostComment\UpdatePostCommentCommand\" />
+    <None Remove="Features\Commands\PostLike\UpdatePostLike\" />
+    <None Remove="Features\Commands\Post\CreatePost\" />
+    <None Remove="Features\Commands\Post\UpdatePost\" />
+    <None Remove="Features\Queries\PostComment\GetPostComment\" />
+    <None Remove="Features\Queries\PostComment\GetPostCommentByPostId\" />
+    <None Remove="Features\Commands\PostLike\DeletePostLike\" />
+    <None Remove="Features\Commands\SavedPost\" />
+    <None Remove="Features\Commands\SavedPost\CreateSavedPost\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dtos\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Interface\Repositories\" />
+    <Folder Include="Parameters\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Features\" />
+    <Folder Include="Features\Commands\" />
+    <Folder Include="Features\Queries\" />
+    <Folder Include="Features\Queries\GetStudents\" />
+    <Folder Include="Features\Commands\CreateStudentCommand\" />
+    <Folder Include="Wrapper\" />
+    <Folder Include="Features\Queries\GetStudentById\" />
+    <Folder Include="Features\Queries\User\" />
+    <Folder Include="Features\Queries\User\GetUsers\" />
+    <Folder Include="Features\Queries\User\GetUserById\" />
+    <Folder Include="Features\Commands\Status\" />
+    <Folder Include="Features\Commands\Status\CreateStatusCommand\" />
+    <Folder Include="Features\Queries\Status\" />
+    <Folder Include="Features\Queries\Status\GetAllStatus\" />
+    <Folder Include="Features\Commands\Role\" />
+    <Folder Include="Features\Commands\Role\CreateRoleCommand\" />
+    <Folder Include="Features\Queries\Role\" />
+    <Folder Include="Features\Queries\Role\GetAllRoles\" />
+    <Folder Include="Features\Commands\User\" />
+    <Folder Include="Features\Commands\User\CreateUserCommand\" />
+    <Folder Include="Features\Commands\UserRole\" />
+    <Folder Include="Features\Queries\UserRole\" />
+    <Folder Include="Features\Queries\UserRole\GetAllUserRole\" />
+    <Folder Include="Features\Commands\Form\" />
+    <Folder Include="Features\Commands\Form\CreateForm\" />
+    <Folder Include="Features\Commands\NavigationItem\" />
+    <Folder Include="Features\Commands\NavigationItem\CreateNavigationItem\" />
+    <Folder Include="Features\Commands\NavigationItemRole\" />
+    <Folder Include="Features\Commands\NavigationItemRole\CreateNavigationItemRole\" />
+    <Folder Include="Features\Queries\Form\" />
+    <Folder Include="Features\Queries\Form\GetAllForm\" />
+    <Folder Include="Features\Queries\NavigationItem\" />
+    <Folder Include="Features\Queries\NavigationItem\GetAllNavigationItem\" />
+    <Folder Include="Features\Queries\NavigationItemRole\" />
+    <Folder Include="Features\Queries\NavigationItemRole\GetAllUserNavigationItemRole\" />
+    <Folder Include="Features\Queries\Language\" />
+    <Folder Include="Features\Queries\Language\GetAllLanguage\" />
+    <Folder Include="Features\Commands\Language\" />
+    <Folder Include="Features\Commands\Language\CreateLanguage\" />
+    <Folder Include="Features\Commands\Language\UpdateLanguage\" />
+    <Folder Include="Features\Commands\Form\UpdateFormCommand\" />
+    <Folder Include="Features\Commands\Role\UpdateRoleCommand\" />
+    <Folder Include="Features\Commands\NavigationItem\UpdateNavigationItemCommand\" />
+    <Folder Include="Features\Commands\NavigationItemRole\UpdateNavigationItemRoleCommand\" />
+    <Folder Include="Features\Commands\Status\UpdateStatusCommand\" />
+    <Folder Include="Features\Commands\User\UpdateUserCommand\" />
+    <Folder Include="Features\Commands\UserRole\CreateUserCommand\" />
+    <Folder Include="Features\Commands\UserRole\UpdateUserRoleCommand\" />
+    <Folder Include="Features\Queries\Base\" />
+    <Folder Include="Features\Queries\Form\GetFormById\" />
+    <Folder Include="Features\Queries\Language\GetLanguageByIdQuery\" />
+    <Folder Include="Features\Queries\NavigationItem\GetNavigationItemById\" />
+    <Folder Include="Features\Queries\NavigationItemRole\GetNavigationItemRoleById\" />
+    <Folder Include="Features\Queries\Role\GetRoleById\" />
+    <Folder Include="Features\Queries\Status\GetStatusById\" />
+    <Folder Include="Features\Queries\UserRole\GetUserRoleById\" />
+    <Folder Include="Features\Queries\User\Login\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Interface\JWT\" />
+    <Folder Include="Features\Commands\Post\" />
+    <Folder Include="Features\Queries\Post\" />
+    <Folder Include="Features\Commands\PostLike\" />
+    <Folder Include="Features\Commands\PostLike\CreatePostLike\" />
+    <Folder Include="Features\Queries\Post\GetPostsQuery\" />
+    <Folder Include="Features\Queries\PostLike\" />
+    <Folder Include="Features\Queries\PostLike\GetLikesByPostIdQuery\" />
+    <Folder Include="Features\Queries\Post\GetPostById\" />
+    <Folder Include="Features\Queries\PostLike\GetPostLikeById\" />
+    <Folder Include="Features\Queries\PostComment\" />
+    <Folder Include="Features\Commands\PostComment\" />
+    <Folder Include="Features\Commands\PostComment\CreatePostCommentCommand\" />
+    <Folder Include="Features\Commands\PostComment\UpdatePostCommentCommand\" />
+    <Folder Include="Features\Commands\PostLike\UpdatePostLike\" />
+    <Folder Include="Features\Commands\Post\CreatePost\" />
+    <Folder Include="Features\Commands\Post\UpdatePost\" />
+    <Folder Include="Features\Queries\PostComment\GetPostComment\" />
+    <Folder Include="Features\Queries\PostComment\GetPostCommentByPostId\" />
+    <Folder Include="Features\Commands\PostLike\DeletePostLike\" />
+    <Folder Include="Features\Commands\SavedPost\" />
+    <Folder Include="Features\Commands\SavedPost\CreateSavedPost\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project001_Final.Domain\Project001_Final.Domain.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="3.1.32" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.25.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.32" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+</Project>

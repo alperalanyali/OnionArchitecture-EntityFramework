@@ -1,0 +1,86 @@
+﻿<Properties StartupConfiguration="{FEF3C63A-D077-4F45-AED3-94EB79085743}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Core/Project001_Final.Application/Features/Queries/Post/GetPostsQuery/GetPostsQueryHandle.cs">
+    <Files>
+      <File FileName="src/Webapi/Project001_Final.Webapi/Controllers/UserController.cs" Line="40" Column="55" />
+      <File FileName="src/Core/Project001_Final.Application/Features/Queries/User/GetUsers/GetAllUsersQuery.cs" Line="1" Column="1" />
+      <File FileName="src/Core/Project001_Final.Application/Features/Queries/User/GetUsers/GetAllUsersHandler.cs" Line="25" Column="1" />
+      <File FileName="src/Core/Project001_Final.Application/Features/Queries/Role/GetAllRoles/GetAllUserQueryHandler.cs" Line="1" Column="1" />
+      <File FileName="src/Webapi/Project001_Final.Webapi/Startup.cs" Line="41" Column="1" />
+      <File FileName="src/Infrastructure/Project001_Final.Persistence/Context/ApplicationDbContext.cs" Line="24" Column="1" />
+      <File FileName="src/Infrastructure/Project001_Final.Persistence/Repositories/UserRepository.cs" Line="24" Column="1" />
+      <File FileName="src/Core/Project001_Final.Application/Mapping/GeneralMapping.cs" Line="42" Column="1" />
+      <File FileName="src/Core/Project001_Final.Application/Features/Queries/User/GetUserById/GetUserByIdQueryHandler.cs" Line="31" Column="1" />
+      <File FileName="src/Core/Project001_Final.Application/Features/Queries/User/GetUserById/GetUserByIdQuery.cs" Line="1" Column="1" />
+      <File FileName="src/Webapi/Project001_Final.Webapi/Controllers/UserOperationController.cs" Line="43" Column="41" />
+      <File FileName="src/Core/Project001_Final.Application/Helpers/JwtAuthencationManager.cs" Line="27" Column="15" />
+      <File FileName="src/Core/Project001_Final.Application/Features/Queries/Post/GetPostsQuery/GetPostsQueryHandle.cs" Line="26" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Project001_Final" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="BackgroundServices" expanded="True" />
+              <Node name="Core" expanded="True">
+                <Node name="Project001_Final.Application" expanded="True">
+                  <Node name="Dependencies" expanded="True" />
+                  <Node name="Features" expanded="True">
+                    <Node name="Queries" expanded="True">
+                      <Node name="Post" expanded="True">
+                        <Node name="GetPostsQuery" expanded="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                  <Node name="Helpers" expanded="True" />
+                  <Node name="Mapping" expanded="True" />
+                </Node>
+                <Node name="Project001_Final.Domain" expanded="True">
+                  <Node name="Entities" expanded="True" />
+                  <Node name="Properties" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Infrastructure" expanded="True">
+                <Node name="Project001_Final.Persistence" expanded="True">
+                  <Node name="Context" expanded="True" />
+                  <Node name="Repositories" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Webapi" expanded="True">
+                <Node name="Project001_Final.Webapi" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.src.Webapi.Project001__Final.Webapi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Features/Commands/Language/UpdateLanguage/UpdateLanguageCommandHandle.cs" relfile="src/Core/Project001_Final.Application/Features/Commands/Language/UpdateLanguage/UpdateLanguageCommandHandle.cs" line="23" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Features/Commands/Role/UpdateRoleCommand/UpdateRoleCommandHandler.cs" relfile="src/Core/Project001_Final.Application/Features/Commands/Role/UpdateRoleCommand/UpdateRoleCommandHandler.cs" line="24" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Webapi/Project001_Final.Webapi/Controllers/UserController.cs" relfile="src/Webapi/Project001_Final.Webapi/Controllers/UserController.cs" line="41" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Features/Queries/Form/GetFormById/GetFormByIdHandler.cs" relfile="src/Core/Project001_Final.Application/Features/Queries/Form/GetFormById/GetFormByIdHandler.cs" line="24" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Features/Commands/User/CreateUserCommand/CreateUserCommandHandler.cs" relfile="src/Core/Project001_Final.Application/Features/Commands/User/CreateUserCommand/CreateUserCommandHandler.cs" line="25" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Helpers/ConvertFileToBase64.cs" relfile="src/Core/Project001_Final.Application/Helpers/ConvertFileToBase64.cs" line="34" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Helpers/ConvertFileToBase64.cs" relfile="src/Core/Project001_Final.Application/Helpers/ConvertFileToBase64.cs" line="10" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Features/Commands/PostLike/CreatePostLike/CreatePostLikeCommandHandle.cs" relfile="src/Core/Project001_Final.Application/Features/Commands/PostLike/CreatePostLike/CreatePostLikeCommandHandle.cs" line="22" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Features/Commands/PostComment/CreatePostCommentCommand/CreatePostCommentCommandHandler.cs" relfile="src/Core/Project001_Final.Application/Features/Commands/PostComment/CreatePostCommentCommand/CreatePostCommentCommandHandler.cs" line="24" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Features/Commands/Post/CreatePost/CreatePostCommandHandle.cs" relfile="src/Core/Project001_Final.Application/Features/Commands/Post/CreatePost/CreatePostCommandHandle.cs" line="27" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Infrastructure/Project001_Final.Persistence/Repositories/PostLikeRepository.cs" relfile="src/Infrastructure/Project001_Final.Persistence/Repositories/PostLikeRepository.cs" line="24" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Webapi/Project001_Final.Webapi/Controllers/SavedPostController.cs" relfile="src/Webapi/Project001_Final.Webapi/Controllers/SavedPostController.cs" line="26" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Features/Commands/SavedPost/CreateSavedPost/CreateSavedPostCommandHandler.cs" relfile="src/Core/Project001_Final.Application/Features/Commands/SavedPost/CreateSavedPost/CreateSavedPostCommandHandler.cs" line="23" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Webapi/Project001_Final.Webapi/Controllers/PostController.cs" relfile="src/Webapi/Project001_Final.Webapi/Controllers/PostController.cs" line="39" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Webapi/Project001_Final.Webapi/Controllers/UserController.cs" relfile="src/Webapi/Project001_Final.Webapi/Controllers/UserController.cs" line="30" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Features/Queries/User/GetUsers/GetAllUsersHandler.cs" relfile="src/Core/Project001_Final.Application/Features/Queries/User/GetUsers/GetAllUsersHandler.cs" line="23" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Infrastructure/Project001_Final.Persistence/Repositories/UserRepository.cs" relfile="src/Infrastructure/Project001_Final.Persistence/Repositories/UserRepository.cs" line="25" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Infrastructure/Project001_Final.Persistence/Repositories/UserRepository.cs" relfile="src/Infrastructure/Project001_Final.Persistence/Repositories/UserRepository.cs" line="24" column="1" />
+      <Breakpoint file="/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Features/Queries/User/GetUserById/GetUserByIdQueryHandler.cs" relfile="src/Core/Project001_Final.Application/Features/Queries/User/GetUserById/GetUserByIdQueryHandler.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

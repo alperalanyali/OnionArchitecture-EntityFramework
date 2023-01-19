@@ -1,0 +1,401 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alperalanyali/Desktop/Project001_Final/src/Webapi/Project001_Final.Webapi/Project001_Final.Webapi.csproj": {}
+  },
+  "projects": {
+    "/Users/alperalanyali/Desktop/Project001_Final/src/BackgroundServices/BackgroundServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alperalanyali/Desktop/Project001_Final/src/BackgroundServices/BackgroundServices.csproj",
+        "projectName": "BackgroundServices",
+        "projectPath": "/Users/alperalanyali/Desktop/Project001_Final/src/BackgroundServices/BackgroundServices.csproj",
+        "packagesPath": "/Users/alperalanyali/.nuget/packages/",
+        "outputPath": "/Users/alperalanyali/Desktop/Project001_Final/src/BackgroundServices/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/alperalanyali/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Project001_Final.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Project001_Final.Application.csproj",
+        "projectName": "Project001_Final.Application",
+        "projectPath": "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Project001_Final.Application.csproj",
+        "packagesPath": "/Users/alperalanyali/.nuget/packages/",
+        "outputPath": "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/alperalanyali/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Domain/Project001_Final.Domain.csproj": {
+                "projectPath": "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Domain/Project001_Final.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.25.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Domain/Project001_Final.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Domain/Project001_Final.Domain.csproj",
+        "projectName": "Project001_Final.Domain",
+        "projectPath": "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Domain/Project001_Final.Domain.csproj",
+        "packagesPath": "/Users/alperalanyali/.nuget/packages/",
+        "outputPath": "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/alperalanyali/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alperalanyali/Desktop/Project001_Final/src/Infrastructure/Project001_Final.Persistence/Project001_Final.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alperalanyali/Desktop/Project001_Final/src/Infrastructure/Project001_Final.Persistence/Project001_Final.Persistence.csproj",
+        "projectName": "Project001_Final.Persistence",
+        "projectPath": "/Users/alperalanyali/Desktop/Project001_Final/src/Infrastructure/Project001_Final.Persistence/Project001_Final.Persistence.csproj",
+        "packagesPath": "/Users/alperalanyali/.nuget/packages/",
+        "outputPath": "/Users/alperalanyali/Desktop/Project001_Final/src/Infrastructure/Project001_Final.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/alperalanyali/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Project001_Final.Application.csproj": {
+                "projectPath": "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Project001_Final.Application.csproj"
+              },
+              "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Domain/Project001_Final.Domain.csproj": {
+                "projectPath": "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Domain/Project001_Final.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.32, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alperalanyali/Desktop/Project001_Final/src/Webapi/Project001_Final.Webapi/Project001_Final.Webapi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alperalanyali/Desktop/Project001_Final/src/Webapi/Project001_Final.Webapi/Project001_Final.Webapi.csproj",
+        "projectName": "Project001_Final.Webapi",
+        "projectPath": "/Users/alperalanyali/Desktop/Project001_Final/src/Webapi/Project001_Final.Webapi/Project001_Final.Webapi.csproj",
+        "packagesPath": "/Users/alperalanyali/.nuget/packages/",
+        "outputPath": "/Users/alperalanyali/Desktop/Project001_Final/src/Webapi/Project001_Final.Webapi/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/alperalanyali/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/alperalanyali/Desktop/Project001_Final/src/BackgroundServices/BackgroundServices.csproj": {
+                "projectPath": "/Users/alperalanyali/Desktop/Project001_Final/src/BackgroundServices/BackgroundServices.csproj"
+              },
+              "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Project001_Final.Application.csproj": {
+                "projectPath": "/Users/alperalanyali/Desktop/Project001_Final/src/Core/Project001_Final.Application/Project001_Final.Application.csproj"
+              },
+              "/Users/alperalanyali/Desktop/Project001_Final/src/Infrastructure/Project001_Final.Persistence/Project001_Final.Persistence.csproj": {
+                "projectPath": "/Users/alperalanyali/Desktop/Project001_Final/src/Infrastructure/Project001_Final.Persistence/Project001_Final.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
